@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.OrderDao">
+    <insert id="addOrder" keyProperty="id" useGeneratedKeys="true" parameterType="order">
+
+    </insert>
+    <update id="updateOrder">
+
+    </update>
+    <delete id="deleteOrder">
+
+    </delete>
+    <resultMap id="orderMap" type="order"></resultMap>
+<select id="findOrderByUserId" resultMap="orderMap">
+
+</select>
+<select id="findOrderByOrdId" resultMap="orderMap">
+
+</select>
+
+</mapper>
